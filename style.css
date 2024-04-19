@@ -1,0 +1,217 @@
+/* Estilos generales */
+* {
+    text-align: justify;
+    font-family: "Poppins", sans-serif;
+    line-height: 1.5em;
+}
+
+/* Contenedor principal */
+.c-principal {
+    background: #EAECEE;
+}
+.navbar-toggler{
+    background-color: white; /* Cambia el color del fondo del icono a blanco */
+}
+
+/* Contenedor de enlaces de la barra de navegación */
+.container-links {
+    justify-content: space-between;
+    font-weight: 500;
+}
+
+/* Encabezado */
+.cabeza {
+    height: 60px;
+    z-index: 999;
+    top: 0;
+    position: sticky;
+}
+
+/* Barra de navegación */
+.nav-fila {
+    padding: 10px;
+    background: #17202A;
+    box-shadow: 0px 0px 6px;
+    color: white;
+}
+
+/* Contenedor principal de contenido */
+.main-fila {
+    padding: 5px;
+}
+
+/* Secciones individuales */
+.c-seccion {
+    box-shadow: 0px 0px 5px;
+    border-radius: 20px;
+    padding: 20px;
+    background: #EAECEE;
+}
+
+/* Título de la sección */
+.title {
+    text-align: center;
+}
+
+/* Icono */
+.icon {
+    width: 30px;
+}
+
+/* Imagen */
+.img {
+    width: 250px;
+    height: auto;
+}
+
+/* Contenedor de vínculos */
+.vinculos {
+    justify-content: center;
+    align-items: end;
+}
+
+/* Enlaces */
+.vinculos a {
+    text-decoration: none;
+    font-weight: 400;
+    color: black;
+}
+
+/*Imagenes de las card de formacion*/
+.img-card-formacion {
+    width: 100%;
+    height: 80%;
+}
+
+/* Efecto de hover en los enlaces */
+.vinculos a:hover {
+    color: rgb(0, 105, 166);
+}
+
+/* Tarjeta de proyecto */
+.card {
+    box-shadow: 0 0 9px;
+    padding: 5px;
+    width: 400px;
+}
+
+/*seccion de proyectos*/
+.proyectos {
+    padding: 10px;
+}
+
+/* Columnas de proyectos */
+.col-pro {
+    padding: 10px;
+}
+
+.col-pro:nth-child(2n) {
+    background: #EAECEE;
+    border-radius: 20px;
+}
+
+.col-pro img {
+    border-radius: 20px;
+}
+
+/* Botones de los proyectos*/
+.btn-pro {
+    width: 250px;
+}
+
+/* Lista de habilidades e intereses */
+.listado {
+    padding: 0;
+    gap: 20px;
+}
+
+/* Elementos de la lista */
+.listado li {
+    list-style: none;
+    font-weight: bolder;
+}
+
+/* Iconos */
+.iconos {
+    width: 80px;
+    height: auto;
+}
+
+/* Efecto de hover en los iconos */
+.iconos:hover {
+    filter: grayscale(0%);
+}
+
+/* Estilos para los campos de formulario */
+.campo-form {
+    box-shadow: 0px 0px 3px;
+}
+
+/* Estilos para el botón de enviar */
+.btn-send {
+    width: 50%;
+    height: 40px;
+}
+
+/*Estilos del pie de pagina*/
+.pie {
+    padding: 10px;
+    bottom: 0;
+    background: #17202A;
+    font-size: 20px;
+    color: white;
+}
+
+/* Media query para dispositivos con ancho máximo de 1080px y mínimo de 780px */
+@media (max-width: 1080px) {
+    /* Ajustes en el encabezado */
+    .cabeza {
+        padding: 0;
+    }
+    /* Ajustes en las secciones */
+    .c-seccion {
+        flex-direction: column;
+        align-items: center;
+    }
+    /* Ajustes en el título de la sección */
+    .title {
+        text-align: center;
+    }
+    /* Ajustes en el contenedor de tarjetas de proyectos */
+    .pro-cards {
+        flex-direction: column;
+        align-items: center;
+    }
+    /* Ajustes en la lista de habilidades e intereses */
+    .listado {
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+@media (max-width: 640px) {
+    /* Ajustes en el encabezado */
+    .cabeza {
+        padding: 0;
+    }
+    /* Ajustes en las secciones */
+    .c-seccion {
+        flex-direction: column;
+        align-items: center;
+    }
+    /* Ajustes en el título de la sección */
+    .title {
+        text-align: center;
+    }
+    /* Ajustes en el contenedor de tarjetas de proyectos */
+    .pro-cards {
+        flex-direction: column;
+        align-items: center;
+    }
+    /* Ajustes en la lista de habilidades e intereses */
+    .listado {
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
